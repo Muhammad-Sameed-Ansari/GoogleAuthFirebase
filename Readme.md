@@ -7,6 +7,9 @@ First we have to install the following packages
 expo install expo-auth-session expo-random
 expo install expo-web-browser
 
+// firebase
+expo install firebase
+
 // for building on android
 expo install expo-updates
 ```
@@ -22,7 +25,7 @@ com.<Anything>.<AppName>
 Then go to **firebase** and make a project over there. After the project is created successfully. Make the web, iOS and android app in it.
 
 ## Web
-For the Web app just write the app nickname and Resgister the app. No need to set up firebase hosting. And then skip the Add Firebase SDK part and click Continue to console. The web part is finished. Now add aonther app. And this time it is iOS
+For the Web app just write the app nickname and Resgister the app. No need to set up firebase hosting. And then for the Add Firebase SDK part copy the code and make a **firebase.js** file in root directory of your react native project and paste the code in it. Add the auth and db configuration in this file. Then click Continue to console. The web part is finished. Now add aonther app. And this time it is iOS
 
 ## iOS
 For the iOS app copy the **bundleIdentifier** that you have saved in the **app.json** file and paste it in the Apple bundle ID and then register the app. Download the config file and save it in the root directory of your react native project. And then skip the other parts and click Continue to console. Now add another app which will be android.
