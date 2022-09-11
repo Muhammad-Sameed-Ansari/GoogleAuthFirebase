@@ -55,3 +55,10 @@ And add a URI in **Authorized redirect URIs**
 ```
 https://auth.expo.io/<ExpoName>/<ProjectName>
 ```
+
+## app.json File
+In app.json file add the following line
+```
+"scheme": "<same as BundleId/Package>"
+```
+The letters in the value of the scheme should be all lowercase
