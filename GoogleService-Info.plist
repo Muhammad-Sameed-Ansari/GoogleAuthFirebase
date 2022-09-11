@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>978425697677-a4in1gfimuvt5om237t6j3vu7001ick8.apps.googleusercontent.com</string>
+	<string>978425697677-s1qnfqntca8oiglndi4464ee7nfvtdn9.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.978425697677-a4in1gfimuvt5om237t6j3vu7001ick8</string>
+	<string>com.googleusercontent.apps.978425697677-s1qnfqntca8oiglndi4464ee7nfvtdn9</string>
 	<key>API_KEY</key>
 	<string>AIzaSyCz6HM2JZR8e_yvQWkJG9PGW9R7EP1XWRo</string>
 	<key>GCM_SENDER_ID</key>
@@ -13,7 +13,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.demo.GoogleAuthFirebase</string>
+	<string>com.demo.googleauthfirebase</string>
 	<key>PROJECT_ID</key>
 	<string>auth-423dc</string>
 	<key>STORAGE_BUCKET</key>
@@ -29,6 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:978425697677:ios:99ae086851d42e73f459c4</string>
+	<string>1:978425697677:ios:7219e0e6e8fc62a6f459c4</string>
 </dict>
 </plist>

@@ -7,17 +7,17 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:978425697677:android:5a7ae4a1215a02a5f459c4",
+        "mobilesdk_app_id": "1:978425697677:android:47de521fb6b3a81ff459c4",
         "android_client_info": {
-          "package_name": "com.demo.GoogleAuthFirebase"
+          "package_name": "com.demo.googleauthfirebase"
         }
       },
       "oauth_client": [
         {
-          "client_id": "978425697677-7on96ndsqpi65gl506ng2or4dvp5a06d.apps.googleusercontent.com",
+          "client_id": "978425697677-i612d1qr9adll1o0ergv3idovng0qc4h.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.demo.GoogleAuthFirebase",
+            "package_name": "com.demo.googleauthfirebase",
             "certificate_hash": "0ab9bd5448a0cd0ecb934f643dd7c41ad35047f2"
           }
         },
@@ -39,10 +39,10 @@
               "client_type": 3
             },
             {
-              "client_id": "978425697677-a4in1gfimuvt5om237t6j3vu7001ick8.apps.googleusercontent.com",
+              "client_id": "978425697677-s1qnfqntca8oiglndi4464ee7nfvtdn9.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.demo.GoogleAuthFirebase"
+                "bundle_id": "com.demo.googleauthfirebase"
               }
             }
           ]

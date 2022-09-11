@@ -42,3 +42,16 @@ y > Update upload Keystore > Generate new keystore > Go back to experience overv
 Then scroll up and you will find the Hashes. Pick the first one that is **Google Certificate Fingerprint** and paste it in your firebase signing certificate SHA-1
 
 Register the app and then download the google-service.json file and put it in your react native project root directory. Skip the other steps and Continue to console
+
+## Google Cloud
+Now go to Google Cloud and select the project with the name which we have created in firebase. Then go to **APIs & Services**. First you have to set the **OAuth consent screen**. 
+
+Then next you will see that in the **Credentials** section the **OAuth Client IDs** have already been set for android, iOS and web because we have already set them in firebase. Now just go to the Web Client Id and add a URI in **Authorized JavaScript origins**
+```
+https://auth.expo.io
+```
+
+And add a URI in **Authorized redirect URIs**
+```
+https://auth.expo.io/<ExpoName>/<ProjectName>
+```
