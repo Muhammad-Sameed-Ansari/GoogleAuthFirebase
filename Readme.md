@@ -14,6 +14,7 @@ expo install firebase
 expo install expo-updates
 ```
 
+## app.json File
 Then go to **app.json** file in your react native project and add the **bundleIdentifier** for **iOS** and **package** for **android**
 
 Both **bundleIdentifier** and **package** for iOS and android respectively will be same. They will be in the following format
@@ -22,6 +23,13 @@ com.<Anything>.<AppName>
 ```
 ![](/readmeImages/1.png)
 
+Then in app.json file add the following line
+```
+"scheme": "<same as BundleId/Package>"
+```
+The letters in the value of the scheme should be all lowercase
+
+## Firebase
 Then go to **firebase** and make a project over there. After the project is created successfully. Make the web, iOS and android app in it.
 
 ## Web
@@ -56,9 +64,3 @@ And add a URI in **Authorized redirect URIs**
 https://auth.expo.io/<ExpoName>/<ProjectName>
 ```
 
-## app.json File
-In app.json file add the following line
-```
-"scheme": "<same as BundleId/Package>"
-```
-The letters in the value of the scheme should be all lowercase
